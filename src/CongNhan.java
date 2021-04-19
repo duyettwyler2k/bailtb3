@@ -21,6 +21,9 @@ public class CongNhan extends CanBo {
         super.inputInfoCanbo();
         Scanner scanner=new Scanner(System.in);
         System.out.println("Bac cong nhan la :");
+        this.baccongnhan=scanner.nextLine();
+
+
     }
     public void showInfoCongNhan(){
         super.showInfoCanbo();

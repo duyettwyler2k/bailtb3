@@ -57,6 +57,7 @@ public class CanBo {
         this.sex=scanner.nextLine();
         System.out.println("Nhap dia chi");
         this.adress=scanner.nextDouble();
+
     }
     public void showInfoCanbo(){
         System.out.printf("Ho ten la %s , Ngay thang nam sinh : %s,Gioi tinh : %s, Dia chi : %s \n",name,dateOfbirth,sex,adress);
